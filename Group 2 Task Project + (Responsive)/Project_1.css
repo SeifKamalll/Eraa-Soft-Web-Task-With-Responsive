@@ -1229,6 +1229,7 @@ background-color: white;
 display: flex;
 justify-content: center;
 align-items: center;
+gap: 0.5rem;
 }
 
 
@@ -1236,6 +1237,10 @@ align-items: center;
 width: 49%;
 height: 100%;
 background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 0.5rem;
 }
 
 
@@ -1243,8 +1248,10 @@ background-color: white;
 width: 49%;
 height: 100%;
 background-color: white;
+display: flex;
 justify-content: center;
 align-items: center;
+gap: 0.5rem;
 }
 
 
@@ -1252,7 +1259,11 @@ align-items: center;
 width: 49%;
 height: 100%;
 background-color: white;
-    }
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 0.5rem;
+}
 
 .steps .right .green{
 font-size: 5rem;
@@ -1262,7 +1273,7 @@ color: #20d97f;
 
 
 .steps .sample{
-font-size: large;
+font-size: 1.3rem;
 }
 
 
