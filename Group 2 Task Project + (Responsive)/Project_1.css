@@ -52,6 +52,14 @@ justify-content: center;
 align-items: center;
 }
 
+a{
+   transition: 500ms;
+}
+
+a:hover{
+   transform: rotate(-10deg);
+}
+
 
 .creativity{
 width: 100%;
@@ -66,6 +74,7 @@ font-family: Montserrat;
     flex-wrap: wrap;
     gap: 1rem;
 }
+
 
    .left{
    width: 40%;
@@ -99,13 +108,14 @@ font-family: Montserrat;
    display: flex;
    flex-direction: column;
    gap: 1.3rem;
+   transition: 2000ms;
 
-   }
+}
+
 
     a{
      width: 13rem;
      height: 3.7rem;
-
     }
 
     button{
